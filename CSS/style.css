@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url(../img/pexels-rachel-claire-5490778.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.intro-image__text a {
+    background-color: #9a704f71;
+    border: 2px solid #9a6f4f;
+    color: #f2f6f7;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #efdfc5;
+    color:#9a6f4f;
+    height: 200px;
+    margin-top: -5rem;
+    text-align: center;
+    padding-top: 5rem;
+    clip-path: polygon(49% 23%, 100% 0, 100% 100%, 39% 100%, 0 100%, 0% 43%, 0 1%);
+}
+
+.intro-text__textbox h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url(..//img/pexels-cottonbro-studio-4568697.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.packaging-image__text a {
+    background-color: #a97c6472;
+    border: 2px solid #a97c64;
+    color: #d6d6cf;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    background-color:#a97c64 ;
+    color: #d6d6cf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url(..//img/pexels-anna-shvets-5760780.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.tutorials-image__text a {
+    background-color: #b5764670;
+    border: 2px solid #b57746;
+    color: #f9dfc9;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    height: 200px;
+    background-color: #b49d8c;
+    color: #7b6159;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #d6e3e9;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.3);
+}
